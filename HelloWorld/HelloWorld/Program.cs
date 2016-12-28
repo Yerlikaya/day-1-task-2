@@ -13,10 +13,27 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            //task2
-            Console.WriteLine("Hello World");
+            task2();
+            task3();
+            task4();
 
-            //task3
+            Console.Read();
+        }
+
+        public static void task4()
+        {
+            Currency currency = new Currency
+            {
+                url = "https://raw.githubusercontent.com/mhs/world-currencies/master/currencies.json"
+            };
+            currency.CurrenciyleriCekVeAyristir();
+
+            currency.VeriyiEkranaBas();
+
+        }
+
+        public static void task3()
+        {
             Lesson ls = new Lesson
             {
                 Name = "c++",
@@ -25,22 +42,12 @@ namespace HelloWorld
 
             string json = JsonConvert.SerializeObject(ls);
 
-            Console.WriteLine(json);
-
-            //task4
-            Currency currency = new Currency
-            {
-                url = "https://raw.githubusercontent.com/mhs/world-currencies/master/currencies.json"
-            };
-            currency.CurrenciyleriCekVeAyristir();
-
-            currency.VeriyiEkranaBas();
-    
-            Console.Read();
+            Console.WriteLine(json+"\n");
         }
 
-
-
-        
+        public static void task2()
+        {
+            Console.WriteLine("Hello World\n");
+        }
     }
 }
