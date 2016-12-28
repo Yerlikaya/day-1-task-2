@@ -1,0 +1,5 @@
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
