@@ -13,8 +13,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            //task2
             Console.WriteLine("Hello World");
 
+            //task3
             Lesson ls = new Lesson
             {
                 Name = "c++",
@@ -25,19 +27,20 @@ namespace HelloWorld
 
             Console.WriteLine(json);
 
-            string jsontext = new WebClient().DownloadString("https://raw.githubusercontent.com/mhs/world-currencies/master/currencies.json");
-
-            //Console.WriteLine(jsontex);
-            var cur = JsonConvert.DeserializeObject<List<Currency>>(jsontext);
-
-            foreach (var data in cur)
+            //task4
+            Currency currency = new Currency
             {
-                Console.WriteLine(data.cc+"\t"
-                    +data.symbol+ "\t"
-                    +data.name);
-            }
+                url = "https://raw.githubusercontent.com/mhs/world-currencies/master/currencies.json"
+            };
+            currency.CurrenciyleriCekVeAyristir();
 
+            currency.VeriyiEkranaBas();
+    
             Console.Read();
         }
+
+
+
+        
     }
 }
