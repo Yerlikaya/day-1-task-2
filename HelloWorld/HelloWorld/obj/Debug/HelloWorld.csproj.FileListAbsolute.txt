@@ -3,3 +3,6 @@ C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\Hell
 C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
 C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
 C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Oguz\Documents\GitHub\day-1-task-2\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
