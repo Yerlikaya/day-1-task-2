@@ -13,13 +13,17 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World");
 
-            Lesson ls = new Lesson();
-            ls.Name = "c++";
-            ls.Code = "bu bir kod örneğidir.";
-            string json = JsonConvert.SerializeObject(ls);
-            Console.WriteLine(json);
-            Console.Read();
+            Lesson ls = new Lesson
+            {
+                Name = "c++",
+                Code = "bu bir kod örneğidir."
+            };
 
+            string json = JsonConvert.SerializeObject(ls);
+
+            Console.WriteLine(json);
+
+            Console.Read();
         }
     }
 }
