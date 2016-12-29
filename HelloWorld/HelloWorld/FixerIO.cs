@@ -38,8 +38,6 @@ namespace HelloWorld
             double sonuc = d2 * miktar;
             Console.WriteLine(sonuc+" "+ikinciCur);
 
-
-
         }
     }
 }
