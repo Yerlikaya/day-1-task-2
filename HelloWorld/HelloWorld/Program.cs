@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Net;
 
-namespace HelloWorld
+namespace HelloWebWorld
 {
     class Program
     {

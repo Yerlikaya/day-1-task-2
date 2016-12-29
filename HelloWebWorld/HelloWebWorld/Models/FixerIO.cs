@@ -18,26 +18,16 @@ namespace HelloWebWorld
         public FixerIO fixSample;
         public void CurrenciyleriCekVeAyristir()
         {
-            try
-            {
                 string jsontext = new WebClient().DownloadString(url);
 
                 fixSample = JsonConvert.DeserializeObject<FixerIO>(jsontext);
-            }
-
-            catch
-            {
-                Console.WriteLine("ilk girilen döviz verisi bulunamadı.");
-            }
-           
         }
 
-        public void CurrencyHesapla(int miktar,String ilkCur,String ikinciCur)
-        {
-            double d2 = fixSample.rates[ikinciCur];
-            double sonuc = d2 * miktar;
-            Console.WriteLine(sonuc+" "+ikinciCur);
-
-        }
+        //public void CurrencyHesapla(int miktar,String ilkCur,String ikinciCur)
+        //{
+        //    double d2 = fixSample.rates[ikinciCur];
+        //    double sonuc = d2 * miktar;
+        //    Console.WriteLine(sonuc+" "+ikinciCur);
+        //}
     }
 }
